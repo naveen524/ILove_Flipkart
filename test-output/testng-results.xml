@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-10T11:57:44 IST" name="ILove_Automation" finished-at="2022-02-10T11:59:23 IST" duration-ms="98909">
+  <suite started-at="2022-02-10T12:30:34 IST" name="ILove_Automation" finished-at="2022-02-10T12:32:29 IST" duration-ms="114400">
     <groups>
     </groups>
-    <test started-at="2022-02-10T11:57:44 IST" name="Flipkart Test4" finished-at="2022-02-10T11:58:55 IST" duration-ms="70550">
+    <test started-at="2022-02-10T12:30:34 IST" name="Flipkart Test4" finished-at="2022-02-10T12:31:47 IST" duration-ms="73048">
       <class name="com.ILove_Flipkart.testcases.TestCase_TC_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@6404f418]" started-at="2022-02-10T11:57:44 IST" name="setup" finished-at="2022-02-10T11:57:56 IST" duration-ms="11822" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@6404f418]" started-at="2022-02-10T12:30:34 IST" name="setup" finished-at="2022-02-10T12:30:48 IST" duration-ms="13394" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Run()[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@6404f418]" started-at="2022-02-10T11:57:56 IST" name="Test_Run" finished-at="2022-02-10T11:58:03 IST" duration-ms="7280" status="FAIL">
+        <test-method signature="Test_Run()[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@6404f418]" started-at="2022-02-10T12:30:48 IST" name="Test_Run" finished-at="2022-02-10T12:30:56 IST" duration-ms="8449" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "com.ILove_Flipkart.pageobjectmodel.Add_To_Cart.driver" is null]]>
@@ -56,7 +56,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Run -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@6404f418]" started-at="2022-02-10T11:58:03 IST" name="tearDown" finished-at="2022-02-10T11:58:55 IST" duration-ms="51411" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@6404f418]" started-at="2022-02-10T12:30:56 IST" name="tearDown" finished-at="2022-02-10T12:31:47 IST" duration-ms="51099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,15 +67,15 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@6404f418]" started-at="2022-02-10T11:58:55 IST" name="tearDown" finished-at="2022-02-10T11:58:55 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@6404f418]" started-at="2022-02-10T12:31:47 IST" name="tearDown" finished-at="2022-02-10T12:31:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ILove_Flipkart.testcases.TestCase_TC_002 -->
     </test> <!-- Flipkart Test4 -->
-    <test started-at="2022-02-10T11:58:55 IST" name="Flipkart Test5" finished-at="2022-02-10T11:59:23 IST" duration-ms="28329">
+    <test started-at="2022-02-10T12:31:47 IST" name="Flipkart Test5" finished-at="2022-02-10T12:32:29 IST" duration-ms="41287">
       <class name="com.ILove_Flipkart.testcases.TestCase_TC_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@5a45133e]" started-at="2022-02-10T11:58:55 IST" name="setup" finished-at="2022-02-10T11:59:13 IST" duration-ms="18137" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@5a45133e]" started-at="2022-02-10T12:31:47 IST" name="setup" finished-at="2022-02-10T12:32:13 IST" duration-ms="25332" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Run()[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@5a45133e]" started-at="2022-02-10T11:59:13 IST" name="Test_Run" finished-at="2022-02-10T11:59:20 IST" duration-ms="7414" status="FAIL">
+        <test-method signature="Test_Run()[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@5a45133e]" started-at="2022-02-10T12:32:13 IST" name="Test_Run" finished-at="2022-02-10T12:32:21 IST" duration-ms="7844" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "com.ILove_Flipkart.pageobjectmodel.Add_To_Cart.driver" is null]]>
@@ -124,7 +124,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Run -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@5a45133e]" started-at="2022-02-10T11:59:20 IST" name="tearDown" finished-at="2022-02-10T11:59:23 IST" duration-ms="2775" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@5a45133e]" started-at="2022-02-10T12:32:21 IST" name="tearDown" finished-at="2022-02-10T12:32:29 IST" duration-ms="8106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@5a45133e]" started-at="2022-02-10T11:59:23 IST" name="tearDown" finished-at="2022-02-10T11:59:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ILove_Flipkart.testcases.TestCase_TC_002@5a45133e]" started-at="2022-02-10T12:32:29 IST" name="tearDown" finished-at="2022-02-10T12:32:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
